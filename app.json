@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Маленькая касса",
+    "slug": "little-register",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "scheme": "littleregister",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.littleregister.game" },
+    "android": { "package": "com.littleregister.game", "versionCode": 1 },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true }
+  }
+}
